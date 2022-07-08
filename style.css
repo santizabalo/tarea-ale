@@ -33,6 +33,37 @@
     cursor: pointer;
     outline: none;
    }
+
+.boton-delete{
+    border-radius: 10px;
+    background: linear-gradient(145deg, #ff943f, #df7c35);
+    box-shadow:  5px 5px 10px #333333,
+    -5px -5px 10px #5b5b5b;
+    width: 120px;
+    height: 100px;
+    border: none;
+    color: #B1B1B1;
+    font-size: 50px;
+    transition: all 0.1s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+.boton-send{
+    border-radius: 10px;
+    background: linear-gradient(145deg, #d2d7dd, #b0b5ba);
+    box-shadow:  5px 5px 10px #333333,
+    -5px -5px 10px #5b5b5b;
+    width: 120px;
+    height: 100px;
+    border: none;
+    color: #B1B1B1;
+    font-size: 50px;
+    transition: all 0.1s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+
    button:hover {
     transform: translateY(-3px);}
 
@@ -40,7 +71,10 @@
     transform: translateY(1px);
   }
 
-
+.button-flex{
+    display: flex;
+    justify-content: center;
+}
 
 .imput{
     border-radius: 5px;
@@ -59,3 +93,4 @@
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
