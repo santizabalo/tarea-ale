@@ -28,14 +28,23 @@
     height: 100px;
     border: none;
     color: #B1B1B1;
-    font-size: 20px;
+    font-size: 50px;
+    transition: all 0.1s ease 0s;
+    cursor: pointer;
+    outline: none;
    }
+   button:hover {
+    transform: translateY(-3px);}
+
+   button:active {
+    transform: translateY(1px);
+  }
 
 
 
 .imput{
     border-radius: 5px;
-    width: 700px;
+    width: 865px;
     height: 30px;
     background-color: #333333;
     border: none;
