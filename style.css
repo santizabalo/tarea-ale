@@ -1,12 +1,13 @@
 
+ 
  .container{
     background-color: #333333   ;
 }
 
 .fondo{
-    background: linear-gradient(145deg, #4c4c4c, #404040);
-    box-shadow:  5px 5px 10px #333333,
-    -5px -5px 10px #5b5b5b;
+    background: linear-gradient(145deg, #303030d3, #111111c4);
+    box-shadow:  5px 5px 10px #6a6a6d5e,
+    -5px -5px 10px #6a6a6d5e;
 }
 
  .main-container {   
@@ -19,72 +20,17 @@
    height: 310px;
   }
 
-   .boton{
-    border-radius: 10px;
-    background: linear-gradient(145deg, #4c4c4c, #404040);
-    box-shadow:  5px 5px 10px #333333,
-    -5px -5px 10px #5b5b5b;
-    width: 120px;
-    height: 100px;
-    border: none;
-    color: #B1B1B1;
-    font-size: 50px;
-    transition: all 0.1s ease 0s;
-    cursor: pointer;
-    outline: none;
-   }
 
-.boton-delete{
-    border-radius: 10px;
-    background: linear-gradient(145deg, #ff943f, #df7c35);
-    box-shadow:  5px 5px 10px #333333,
-    -5px -5px 10px #5b5b5b;
-    width: 120px;
-    height: 100px;
-    border: none;
-    color: #B1B1B1;
-    font-size: 50px;
-    transition: all 0.1s ease 0s;
-    cursor: pointer;
-    outline: none;
-}
-.boton-send{
-    border-radius: 10px;
-    background: linear-gradient(145deg, #d2d7dd, #b0b5ba);
-    box-shadow:  5px 5px 10px #333333,
-    -5px -5px 10px #5b5b5b;
-    width: 120px;
-    height: 100px;
-    border: none;
-    color: #B1B1B1;
-    font-size: 50px;
-    transition: all 0.1s ease 0s;
-    cursor: pointer;
-    outline: none;
-}
-
-
-   button:hover {
-    transform: translateY(-3px);}
-
-   button:active {
-    transform: translateY(1px);
-  }
-
-.button-flex{
-    display: flex;
-    justify-content: center;
-}
 
 .imput{
     border-radius: 5px;
     width: 865px;
     height: 30px;
     background-color: #333333;
-    border: none;
     margin-top: 12px;
     margin-left: 15px;
     margin-bottom: 7px;
+    border: none
 }
 
 .flex{
@@ -93,4 +39,127 @@
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+/*style botones numericos*/
+
+   .botoncito {
+    align-items: center;
+    appearance: none;
+    background: linear-gradient(145deg,#303030d3, #111111c4  );
+    border-radius: 10px;
+    box-shadow: rgba(189, 189, 189, 0.11) 0 4px 8px, rgba(68, 67, 68, 0.192) 0 7px 13px -3px, #6d6d6d7a 0 -3px 0 inset;
+    color: #B1B1B1;
+    cursor: pointer;
+    display: inline-flex;
+    border: none;
+    width: 120px;
+    height: 100px;
+    justify-content: center;
+    list-style: none;
+    overflow: hidden;
+    position: relative;
+    text-decoration: none;
+    transition:.15s,.15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    font-size: 50px;
+    font-family: comic system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   }
+
+   .botoncito:hover {
+    transform: translateY(-2px);
+   }
+
+   .botoncito:active {
+    box-shadow: rgba(214, 214, 231, 0.089) 0 3px 7px inset;
+    transform: translateY(1px);
+    opacity: 90%;
+    color: #777676;
+}
+
+/* fin style botones numericos*/
+
+/* style boton send*/
+
+.boton-send{
+    align-items: center;
+    appearance: none;
+    background: linear-gradient(145deg, #d2d7dd, #868b91);
+    border-radius: 10px;
+    box-shadow: rgba(189, 189, 189, 0.11) 0 4px 8px, rgba(68, 67, 68, 0.192) 0 7px 13px -3px, #6d6d6d7a 0 -3px 0 inset;
+    color: #B1B1B1;
+    cursor: pointer;
+    display: inline-flex;
+    border: none;
+    width: 120px;
+    height: 100px;
+    justify-content: center;
+    list-style: none;
+    overflow: hidden;
+    position: relative;
+    text-decoration: none;
+    transition:.15s,.15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+   
+}
+
+.boton-send:hover {
+    transform: translateY(-1px);
+   }
+
+   .boton-send:active {
+    box-shadow: rgba(39, 39, 49, 0.322) 0 3px 7px inset;
+    transform: translateY(1px);
+    opacity: 90%;
+}
+
+/* fin style boton send*/
+
+/* style boton delete*/
+    .boton-delete{
+        align-items: center;
+        appearance: none;
+        background: linear-gradient(145deg, #ff943f, #ad642f);
+        border-radius: 10px;
+        box-shadow: rgba(189, 189, 189, 0.11) 0 4px 8px, rgba(68, 67, 68, 0.192) 0 7px 13px -3px, #6d6d6d7a 0 -3px 0 inset;
+        color: #B1B1B1;
+        cursor: pointer;
+        display: inline-flex;
+        border: none;
+        width: 120px;
+        height: 100px;
+        justify-content: center;
+        list-style: none;
+        overflow: hidden;
+        position: relative;
+        text-decoration: none;
+        transition:.15s,.15s;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        white-space: nowrap;
+        font-size: 50px;
+    }
+    
+    .boton-delete:hover {
+        transform: translateY(-1px);
+       }
+    
+       .boton-delete:active {
+        box-shadow: rgba(39, 39, 49, 0.322) 0 3px 7px inset;
+        transform: translateY(1px);
+    opacity: 90%;
+    }
+    /* fin style boton delete*/
+        
+/* detalle botones send/delete */
+    .imagenes{
+        opacity: 80%
+    }
+
 
