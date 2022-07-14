@@ -5,9 +5,9 @@
 }
 
 .fondo{
-    background: linear-gradient(145deg, #303030d3, #111111c4);
-    box-shadow:  5px 5px 10px #6a6a6d5e,
-    -5px -5px 10px #6a6a6d5e;
+    background: linear-gradient(145deg,#252525d3, #02040ac4  );
+    box-shadow: rgba(188, 217, 255, 0.096) 0px -2px 4px, rgb(23, 19, 48) 0 4px 15px -10px, #b6f50a00 0 -3px 0 inset;
+   
 }
 
  .main-container {   
@@ -17,7 +17,7 @@
    margin-left: 10%;
    margin-right: 10%;
    width: 900px;
-   height: 310px;
+   height: 320px;
   }
 
 
@@ -25,12 +25,14 @@
 .imput{
     border-radius: 5px;
     width: 865px;
-    height: 30px;
-    background-color: #333333;
+    height: 40px;
+    background: linear-gradient(145deg,#1b1a1aec, #000102c4  );
     margin-top: 12px;
     margin-left: 15px;
     margin-bottom: 7px;
-    border: none
+    border: 2px solid rgba(251, 251, 252, 0.164) ;
+    border-radius: 5px;
+    
 }
 
 .flex{
@@ -45,10 +47,10 @@
    .botoncito {
     align-items: center;
     appearance: none;
-    background: linear-gradient(145deg,#303030d3, #111111c4  );
+    background: linear-gradient(145deg,#303030d3, #02040ac4  );
     border-radius: 10px;
-    box-shadow: rgba(189, 189, 189, 0.11) 0 4px 8px, rgba(68, 67, 68, 0.192) 0 7px 13px -3px, #6d6d6d7a 0 -3px 0 inset;
-    color: #B1B1B1;
+    box-shadow: rgba(188, 217, 255, 0.096) 0px -2px 4px, rgb(23, 19, 48) 0 4px 15px -10px, #b6f50a00 0 -3px 0 inset;
+    color: #b1b1b1;
     cursor: pointer;
     display: inline-flex;
     border: none;
@@ -69,14 +71,15 @@
    }
 
    .botoncito:hover {
-    transform: translateY(-2px);
+    transform: translateY(-1px);
    }
 
    .botoncito:active {
-    box-shadow: rgba(214, 214, 231, 0.089) 0 3px 7px inset;
+    transition: all 50ms;
+    box-shadow: rgba(62, 62, 70, 0.486) 0 3px 5px inset;
     transform: translateY(1px);
-    opacity: 90%;
-    color: #777676;
+    opacity: 70%;
+    color: #b1b1b1;
 }
 
 /* fin style botones numericos*/
@@ -88,8 +91,8 @@
     appearance: none;
     background: linear-gradient(145deg, #d2d7dd, #868b91);
     border-radius: 10px;
-    box-shadow: rgba(189, 189, 189, 0.11) 0 4px 8px, rgba(68, 67, 68, 0.192) 0 7px 13px -3px, #6d6d6d7a 0 -3px 0 inset;
-    color: #B1B1B1;
+    box-shadow: rgba(188, 217, 255, 0.096) 0px -2px 4px, rgb(23, 19, 48) 0 4px 15px -10px, #b6f50a00 0 -3px 0 inset;
+     color: #B1B1B1;
     cursor: pointer;
     display: inline-flex;
     border: none;
@@ -115,7 +118,7 @@
    .boton-send:active {
     box-shadow: rgba(39, 39, 49, 0.322) 0 3px 7px inset;
     transform: translateY(1px);
-    opacity: 90%;
+    opacity: 80%;
 }
 
 /* fin style boton send*/
@@ -126,7 +129,7 @@
         appearance: none;
         background: linear-gradient(145deg, #ff943f, #ad642f);
         border-radius: 10px;
-        box-shadow: rgba(189, 189, 189, 0.11) 0 4px 8px, rgba(68, 67, 68, 0.192) 0 7px 13px -3px, #6d6d6d7a 0 -3px 0 inset;
+        box-shadow: rgba(188, 217, 255, 0.096) 0px -2px 4px, rgb(23, 19, 48) 0 4px 15px -10px, #b6f50a00 0 -3px 0 inset;
         color: #B1B1B1;
         cursor: pointer;
         display: inline-flex;
@@ -153,7 +156,7 @@
        .boton-delete:active {
         box-shadow: rgba(39, 39, 49, 0.322) 0 3px 7px inset;
         transform: translateY(1px);
-    opacity: 90%;
+    opacity: 80%;
     }
     /* fin style boton delete*/
         
